@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Homepage | Kenjiro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <div class="logo">Kenjiro</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="hero" id="home">
+    <h1>Halo, Saya Anugerah Worek</h1>
+    <p>
+      Saya biasa dipanggil Kenjiro. Saya mahasiswa Teknik Informatika
+      di Universitas Sam Ratulangi dengan NIM 240211060113. Saya memiliki minat besar di bidang teknologi
+      dan otomotif.
+    </p>
+    <a href="#contact" class="btn">Hubungi Saya</a>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <h2 class="section-title fade-in">Gallery</h2>
+    <div class="gallery-container">
+      <div class="gallery-item fade-in"><img src="image1.jpeg" alt="Gallery 1"></div>
+      <div class="gallery-item fade-in"><img src="image2.jpeg" alt="Gallery 2"></div>
+      <div class="gallery-item fade-in"><img src="image3.jpeg" alt="Gallery 3"></div>
+      <div class="gallery-item fade-in"><img src="image4.jpeg" alt="Gallery 4"></div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <h2 class="section-title fade-in">Blog</h2>
+    <div class="blog-container">
+      <div class="blog-card fade-in">
+        <h3>Perkembangan Teknologi Mobil</h3>
+        <p>Teknologi mobil terus berkembang... mobil listrik juga mulai populer.</p>
+      </div>
+      <div class="blog-card fade-in">
+        <h3>Jenis-Jenis Mobil</h3>
+        <p>Mobil memiliki berbagai jenis... SUV cocok untuk medan berat.</p>
+      </div>
+      <div class="blog-card fade-in">
+        <h3>Tips Merawat Mobil</h3>
+        <p>Merawat mobil penting... rutin ganti oli, cek ban, servis berkala.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title fade-in">Contact</h2>
+    <div class="contact-box fade-in">
+      <p><strong>Nama:</strong> Anugerah Worek</p>
+      <p><strong>Instagram:</strong> @2kenzwrld</p>
+      <p><strong>Email:</strong> anugerahworek026@student.unsrat.ac.id</p>
+      <p><strong>Nomor Telepon:</strong> 085298632400</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Masukkan Nama" required>
+        <input type="email" placeholder="Masukkan Email" required>
+        <textarea rows="5" placeholder="Tulis Pesan" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Personal Homepage | Dibuat oleh Kenjiro</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
